@@ -43,6 +43,10 @@ function FeedbackForm({ feedback, setFeedback }) {
             setTimeout(() => {
               setBildirim("");
             }, 3000);
+
+
+
+            
             setFeedback({
               isimSoyisim: adSoyad,
               email: email,
